@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { AddteamPage } from '../pages/addteam/addteam';
+import { LoginPage } from '../pages/login/login';
+import { RecordPage } from '../pages/record/record';
+import { PersoncenterPage } from '../pages/personcenter/personcenter';
+import { RankPage } from '../pages/rank/rank';
+import { RegisterPage } from '../pages/register/register';
+import { MatchPage } from '../pages/match/match';
+
+
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -14,10 +21,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
-    ContactPage,
-    HomePage,
-    TabsPage
+    TabsPage,
+    AddteamPage,
+    LoginPage,
+    RecordPage,
+    PersoncenterPage,
+    RankPage,
+    RegisterPage,
+    MatchPage,
+        
   ],
   imports: [
     BrowserModule,
@@ -26,10 +38,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
-    ContactPage,
-    HomePage,
-    TabsPage
+    TabsPage,
+    AddteamPage,
+    LoginPage,
+    RecordPage,
+    PersoncenterPage,
+    RankPage,
+    RegisterPage,
+    MatchPage,
+
   ],
   providers: [
     StatusBar,

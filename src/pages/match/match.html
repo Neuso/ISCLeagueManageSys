@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title text-center>
+      赛事生成
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div>
+    <ion-card>
+
+      <ion-card-header>
+        edg
+        <button ion-fab mini center class="sub" (click)="showAlert()">
+          <ion-icon name="remove"></ion-icon>
+        </button>
+
+      </ion-card-header>
+
+      <ion-card-content>
+        过气一地基
+      </ion-card-content>
+
+    </ion-card>
+
+    <ion-card>
+
+      <ion-card-header>
+        lgd
+        <button ion-fab mini center class="sub" (click)="showAlert()">
+          <ion-icon name="remove"></ion-icon>
+        </button>
+
+      </ion-card-header>
+
+      <ion-card-content>
+        老干爹和老干妈
+
+      </ion-card-content>
+
+    </ion-card>
+
+    <ion-card>
+
+      <ion-card-header>
+        qg
+        <button ion-fab mini center class="sub" (click)="showAlert()">
+          <ion-icon name="remove"></ion-icon>
+        </button>
+
+      </ion-card-header>
+
+      <ion-card-content>
+        不认识的队伍
+      </ion-card-content>
+
+    </ion-card>
+
+  </div>
+
+  <ion-list>
+    <ion-item>
+      <a>循环次数 : </a>
+      <input type="number" placeholder="请输入循环次数" />
+    </ion-item>
+    <ion-item>
+      <ion-label>净球优先</ion-label>
+      <ion-toggle checked="true"></ion-toggle>
+    </ion-item>
+  </ion-list>
+
+  <div text-center>
+    <button ion-button (click)="addTeam()">添加队伍</button>
+    <button ion-button>赛事生成</button>
+  </div>
+</ion-content>
